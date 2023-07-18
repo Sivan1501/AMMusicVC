@@ -41,6 +41,15 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
+      [
+            InlineKeyboardButton(
+
+                text="➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+
+                url=f"https://t.me/Sophia_x_MusicBot?startgroup=true",
+
+            ),
+          ],
         [
             InlineKeyboardButton(
                 text="▷",
@@ -59,13 +68,13 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-    [
+         [
             InlineKeyboardButton(
                 text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/AM_YTBOTT"
             ),
             InlineKeyboardButton(
 
-                text="ᴏᴜʀ ᴡᴏʀʟᴅ 💌", url=f"https://t.me/+CrphTp8tInNjZmRl"
+                text="🦋ᴇᴋ 𝄞 ʟᴀᴍʜᴀ🦋", url=f"https://t.me/+2inD_loxyGw0Nzk1"
              ),
           ],
         [
@@ -75,7 +84,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             )
         ],
     ]
- return buttons
+    return buttons
+
 
 def telegram_markup_timer(_, chat_id, played, dur):
     played_sec = time_to_seconds(played)
@@ -125,23 +135,24 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-    [
+         [
             InlineKeyboardButton(
                 text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/AM_YTBOTT"
             ),
             InlineKeyboardButton(
 
-                text="ᴏᴜʀ ᴡᴏʀʟᴅ 💌", url=f"https://t.me/+CrphTp8tInNjZmRl"
+                 text="🦋ᴇᴋ 𝄞 ʟᴀᴍʜᴀ🦋", url=f"https://t.me/+2inD_loxyGw0Nzk1"
              ),
           ],
         [
-         
+          
             InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
+        
         ],
     ]
- return buttons
+    return buttons
 
 
 def stream_markup(_, videoid, chat_id):
@@ -164,10 +175,13 @@ def stream_markup(_, videoid, chat_id):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
+       
         [
+          
             InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
+        
         ],
     ]
     return buttons
@@ -190,23 +204,25 @@ def telegram_markup(_, chat_id):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-    [
+       
+         [
             InlineKeyboardButton(
                 text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/AM_YTBOTT"
             ),
             InlineKeyboardButton(
 
-                text="ᴏᴜʀ ᴡᴏʀʟᴅ 💌", url=f"https://t.me/+CrphTp8tInNjZmRl"
+                 text="🦋ᴇᴋ 𝄞 ʟᴀᴍʜᴀ🦋", url=f"https://t.me/+2inD_loxyGw0Nzk1"
              ),
           ],
-        [
+       [
          
             InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
+        
         ],
     ]
- return buttons
+    return buttons
 
 
 ## Search Query Inline
@@ -355,20 +371,22 @@ def queue_markup(_, videoid, chat_id):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-            [
+       
+         [
             InlineKeyboardButton(
                 text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/AM_YTBOTT"
             ),
             InlineKeyboardButton(
 
-                text="ᴏᴜʀ ᴡᴏʀʟᴅ 💌", url=f"https://t.me/+CrphTp8tInNjZmRl"
+                text="🦋ᴇᴋ 𝄞 ʟᴀᴍʜᴀ🦋", url=f"https://t.me/+2inD_loxyGw0Nzk1"
              ),
           ],
         [
-         
+          
             InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
+        
         ],
     ]
- return buttons
+    return buttons
