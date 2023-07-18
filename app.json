@@ -32,6 +32,11 @@
         "description": "Your heroku app/bot's name",
         "value": "",
         "required": false
+      },
+        "STRING_SESSION": {
+        "description": "Your heroku app/bot's name",
+        "value": "",
+        "required": false
       }
     },
     "buildpacks": [
