@@ -34,7 +34,7 @@
         "required": false
       },
         "STRING_SESSION": {
-        "description": "Your heroku app/bot's name",
+        "description": "Your assi id sessoin string ",
         "value": "",
         "required": false
       }
